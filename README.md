@@ -19,4 +19,7 @@ Nothing right now
 - [ ] Hard disk reading
 - [ ] CD/DVD reading
 
-# WORKING ON
+# How to boot?
+LINUX:
+nasm boot.asm -f bin -o boot.bin
+qemu-system-i386 -hda boot.bin
