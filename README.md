@@ -21,5 +21,5 @@ Nothing right now
 
 # How to boot?
 LINUX:
--1st command: nasm boot.asm -f bin -o boot.bin
--2nd command: qemu-system-i386 -hda boot.bin
+- 1st command: nasm boot.asm -f bin -o boot.bin
+- 2nd command: qemu-system-i386 -hda boot.bin
