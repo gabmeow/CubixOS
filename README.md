@@ -10,10 +10,10 @@ Nothing right now
 [-- Last version Alpha 0.01 --]
 
 ## ROADMAP
-[] Easy to use
-[] Graphic interface
+[❌] Easy to use
+[❌] Graphic interface
 [✔] Command-line interface
-[] Floppy disk reading
-[] USB reading
-[] Hard disk reading
-[] CD/DVD reading
+[❌] Floppy disk reading
+[❌] USB reading
+[❌] Hard disk reading
+[❌] CD/DVD reading
