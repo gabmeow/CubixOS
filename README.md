@@ -8,6 +8,7 @@ Because it's easy to use, simple and perfect.
 # CHANGELOG
 Nothing right now
 [-- Last version Alpha 0.01 --]
+- [ ] Tested
 
 ## ROADMAP
 - [ ] Easy to use
