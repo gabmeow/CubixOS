@@ -18,3 +18,5 @@ Nothing right now
 - [ ] USB reading
 - [ ] Hard disk reading
 - [ ] CD/DVD reading
+
+# WORKING ON
