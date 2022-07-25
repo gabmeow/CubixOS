@@ -21,7 +21,7 @@ end:
     jmp $
 
 variableName:
-    db "Hello world", 0
+    db "Hello world!", 0
 
 char:
     db 0                         
