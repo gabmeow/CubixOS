@@ -6,6 +6,8 @@ Cubix is an open source operating system created the first of July 2022, we're s
 Because it's easy to use, simple and perfect.
 
 # CHANGELOG
+- Previous:
+  - Removed the buffer
 - Changes:
   - Added a partial fix for the buffer
 - Coming in the future:
