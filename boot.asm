@@ -1,5 +1,5 @@
 ;boot.asm
-[org 0x7c00]
+[ORG 0x7c00]
 mov ah, 0x0e
 mov bx, variableName
 
@@ -24,4 +24,5 @@ buffer:                             ; !I HAVE NO CLUE IF THIS IS CORRECT OR NOT!
     inc bx                          ; Buffer ends here
 
 times 510-($-$$) db 0
-db 0xaa55
+db 0x55
+db 0xAA
