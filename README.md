@@ -7,7 +7,7 @@ Because it's easy to use, simple and perfect.
 
 # CHANGELOG
 - Changes:
-  - Removed bugged buffer (I'll re-add it once i unbugged it)
+  - Added a partial fix for the buffer
 - Coming in the future:
   - Buffer
   - Full command-line UI
