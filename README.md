@@ -1,8 +1,8 @@
-# CubixOS
-## What is CubixOS?
-CubixOS is an open source operating system created the first of July 2022, we're still building it and we hope you'll like it
+# Cubix
+## What is Cubix?
+Cubix is an open source operating system created the first of July 2022, we're still building it and we hope you'll like it
 
-## Why CubixOS?
+## Why Cubix?
 Because it's easy to use, simple and perfect.
 
 # CHANGELOG
