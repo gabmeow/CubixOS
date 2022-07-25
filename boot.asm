@@ -1,5 +1,11 @@
 ;boot.asm
 [ORG 0x7c00]
+
+mov ah, 0 ; puts 0 in ah
+int 0x16  ; asks for input
+
+mov al, [char] ; moves CHAR in al
+
 mov ah, 0x0e
 mov bx, variableName
 
@@ -15,7 +21,10 @@ end:
     jmp $
 
 variableName:
-    db "Hello world!", 0
+    db "Hello world", 0
+
+char:
+    db 0                         
 
 times 510-($-$$) db 0
 db 0x55
