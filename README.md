@@ -7,11 +7,11 @@ Because it's easy to use, simple and perfect.
 
 # CHANGELOG
 - Changes:
- - Removed bugged buffer (I'll re-add it once i unbugged it
+ - Removed bugged buffer (I'll re-add it once i unbugged it)
 - Coming in the future:
   - Buffer
   - Full command-line UI
-- [-- Last version Alpha 0.01 --]
+ - [-- Last version Alpha 0.01 --]
 - [x] Tested
 
 ## ROADMAP
