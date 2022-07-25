@@ -15,13 +15,7 @@ end:
     jmp $
 
 variableName:
-    db "Hello world", 0
-
-buffer:                             ; !I HAVE NO CLUE IF THIS IS CORRECT OR NOT!
-    times 10 db 0
-    mov bx, buffer
-    mov [bx], al
-    inc bx                          ; Buffer ends here
+    db "Hello world!", 0
 
 times 510-($-$$) db 0
 db 0x55
