@@ -7,10 +7,10 @@ Because it's easy to use, simple and perfect.
 
 # CHANGELOG
 - Previous:
-  - Added a partial fix for the buffer
-- Changes:
   - Added and fixed the buffer
   - Changed the text
+- Changes:
+  - The OS can now read from the disk
 - Coming in the future:
   - Full command-line UI (On the way :) )
 - [-- Last version Alpha 0.01 --]
