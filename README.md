@@ -22,8 +22,8 @@ Because it's easy to use, simple and perfect.
 - [x] Command-line interface
 - [ ] Floppy disk reading
 - [ ] USB reading
-- [ ] Hard disk reading
-- [ ] CD/DVD reading
+- [x] Hard disk reading
+- [x] CD/DVD reading
 
 # How to boot?
 LINUX:
