@@ -26,6 +26,9 @@ Because it's easy to use, simple and perfect.
 - [x] CD/DVD reading
 
 # How to boot?
-LINUX:
+LIBRARIES:
+ - nasm (x86)
+
+LINUX BOOT WITH QEMU:
 - 1st command: nasm boot.asm -f bin -o boot.bin
 - 2nd command: qemu-system-i386 -hda boot.bin
