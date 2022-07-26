@@ -7,7 +7,7 @@ Because it's easy to use, simple and perfect.
 
 # CHANGELOG
 - Previous:
-  - Added a partial fix for the buffe
+  - Added a partial fix for the buffer
 - Changes:
   - Added and fixed the buffer
   - Changed the text
