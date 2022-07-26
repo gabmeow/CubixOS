@@ -1,13 +1,14 @@
 ;boot.asm
 [ORG 0x7c00]
 
-mov ah, 0 ; puts 0 in ah
-int 0x16  ; asks for input
+mov ah, 0       ; input
+int 0x16
 
-mov al, [char] ; moves CHAR in al
+mov al, [buffer]    ; actually stores it
 
 mov ah, 0x0e
-mov bx, variableName
+mov bx, helloTxt    ;prints
+
 
 printString:
     mov al, [bx]
@@ -20,11 +21,22 @@ printString:
 end:
     jmp $
 
-variableName:
-    db "Hello world!", 0
+helloTxt:
+    db "Cubix", 13, 10   ; 0 = stop reading - 13, 10 = continue
 
-char:
-    db 0                         
+versionTxt:
+    db "V 001", 13, 10
+spaceTxt:
+    db "", 0
+
+;char:
+;    db 0
+
+buffer:                         ; STORE INPUT DATA              
+    times 10 db 0
+    mov bx, buffer
+    mov [bx], al
+    inc bx
 
 times 510-($-$$) db 0
 db 0x55
