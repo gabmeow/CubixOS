@@ -7,12 +7,12 @@ Because it's easy to use, simple and perfect.
 
 # CHANGELOG
 - Previous:
-  - Removed the buffer
+  - Added a partial fix for the buffe
 - Changes:
-  - Added a partial fix for the buffer
+  - Added and fixed the buffer
+  - Changed the text
 - Coming in the future:
-  - Buffer
-  - Full command-line UI
+  - Full command-line UI (On the way :) )
 - [-- Last version Alpha 0.01 --]
 - [x] Tested
 
