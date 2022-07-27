@@ -12,7 +12,7 @@ Because it's easy to use, simple and perfect.
   - Added Kernel
 - Coming in the future:
   - Full command-line UI (On the way :) )
-- [-- Last version Alpha 0.01 --]
+- [-- Last version: 001A5 --]
 - [x] Tested
 
 ## ROADMAP
