@@ -7,9 +7,9 @@ Because it's easy to use, simple and perfect.
 
 # CHANGELOG
 - Previous:
-  - The OS can now read from the disk
-- Changes:
   - Added Kernel
+- Changes:
+  - Added new-line text
 - Coming in the future:
   - Full command-line UI (On the way :) )
 - [-- Last version: 001A5 --]
