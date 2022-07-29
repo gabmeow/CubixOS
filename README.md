@@ -17,7 +17,7 @@ Cubix is being developed by 1 guy, appreciate all his hard work by downloading t
 - [x] Tested
 
 ## ROADMAP
-- [ ] Easy to use
+- [x] Easy to use
 - [ ] Graphic interface
 - [x] Command-line interface
 - [ ] Floppy disk reading
