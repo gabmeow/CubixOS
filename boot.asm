@@ -32,7 +32,7 @@ mov al, 0x3
 int 0x10
 
 cli
-lgdt [GDT_descriptor]
+lgdt [GDT_descriptor
 mov eax, cr0
 or eax, 1
 mov cr0, eax
