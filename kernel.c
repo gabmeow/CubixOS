@@ -1,6 +1,6 @@
 #include<stdbool.h>
 #include<stdint.h>
-#include<stddef.h>
+#include<stddef.h
 
 void WriteCharacter(unsigned char c, unsigned char forecolour, unsigned char backcolour, int x, int y)
 {
