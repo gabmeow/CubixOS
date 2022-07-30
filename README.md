@@ -8,11 +8,11 @@ Cubix is being developed by 1 guy, appreciate all his hard work by downloading t
 
 # CHANGELOG
 - Previous:
-  - Added Kernel
-- Changes:
   - Added new-line text
+- Changes:
+  - Added keyboard driver
 - Coming in the future:
-  - Full command-line UI (On the way :) )
+  - Full kernel input
 - [-- Last version: 001A5 --]
 - [x] Tested
 
