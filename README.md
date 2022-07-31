@@ -1,9 +1,9 @@
 # Cubix
 ## What is Cubix?
-Cubix is an open source operating system created the first of July 2022, we're still building it and we hope you'll like it
+Cubix is an open source operating system created the first of July 2022, I'm still building it and I hope you'll like it
 
 ## Why Cubix?
-Cubix is being developed by 1 guy, appreciate all his hard work by downloading the system.
+When I was a kid i always dreamed to create an operating system, finally, this dream became true, it's not easy to create this type of thing but I did it! If you want to support my work download it and give it a try! I'm sure that it's not like Windows or Linux but remember that this is 1 month of work!
 - [x] Easy to use
 
 # CHANGELOG
