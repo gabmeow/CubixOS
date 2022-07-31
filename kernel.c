@@ -25,7 +25,7 @@ void write_string(int colour, const char *string, unsigned char backcolour, int 
     }
 }
 
-// DRIVER: keyboard
+// DRIVER: keyboar
 int curMode;
 
 uint8_t inb(uint16_t port)
