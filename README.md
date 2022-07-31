@@ -26,7 +26,7 @@ Cubix is being developed by 1 guy, appreciate all his hard work by downloading t
 - [x] CD/DVD reading
 
 # How to boot?
-LIBRARIES:
+YOU NEED:
  - nasm (x86)
  - C (gcc)
 
