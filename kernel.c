@@ -25,7 +25,7 @@ void write_string(int colour, const char *string, unsigned char backcolour, int 
     }
 }
 
-// DRIVER: keyboar
+// DRIVER: keyboard
 int curMode;
 
 uint8_t inb(uint16_t port)
@@ -127,7 +127,6 @@ void keyboard_handler()
 // kernel
 _main()
 {
-    //int abc = 1;
     keyboard_handler();
     const char error[5] = {'E', 'R', 'R', 'O', 'R'};  
     const char cubix[5] = {'C', 'u', 'b', 'i', 'x'};
