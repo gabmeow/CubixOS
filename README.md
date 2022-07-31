@@ -24,6 +24,10 @@ When I was a kid i always dreamed to create an operating system, finally, this d
 - [ ] USB reading
 - [x] Hard disk reading
 - [x] CD/DVD reading
+- [x] Keyboard driver
+- [ ] Memory driver
+- [ ] Inputs
+- [ ] Shell 
 
 # How to boot?
 YOU NEED:
