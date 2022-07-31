@@ -26,6 +26,8 @@ void write_string(int colour, const char *string, unsigned char backcolour, int 
 }
 
 // DRIVER: keyboard
+int curMode;
+
 uint8_t inb(uint16_t port)
 {
     uint8_t ret;
@@ -78,8 +80,8 @@ const char kbdus[128] =
     0,	/* All other keys are undefined */
 };
 
-int shift_pressed = 0;
-int caps_lock = 0;
+int shift_pressed = false;
+int caps_lock = false;
 
 void keyboard_handler()
 {
@@ -91,13 +93,32 @@ void keyboard_handler()
 
     if ((scancode & 0x80) == 0x80)
     {
-        // released
+        switch (scancode)
+        {
+        case 0xAA:
+            shift_pressed = false;
+            break;
+        
+        default:
+            break;
+        }
     }
 
     else
     {
-        // Pressed
+        switch (scancode)
+        {
+        case 0x2A:
+            shift_pressed = true;
+            break;
         
+        case 0x3A:
+            caps_lock = !caps_lock;
+            break;
+        
+        default:
+            break;
+        }
     }
     
     
@@ -106,14 +127,12 @@ void keyboard_handler()
 // kernel
 _main()
 {
-    int abc = 1;
+    //int abc = 1;
     keyboard_handler();
-    const char error[5] = {'E', 'R', 'R', 'O', 'R'};
-     write_string(0x0f, error, 0x00, 0, 2, 5);
-     const char cubix[5] = {'C', 'u', 'b', 'i', 'x'};
-     write_string(0x0f, cubix, 0x00, 0, 0, 5);
-     const char version[6] = {'V', '0', '0', '1', 'A', '5'};
-     write_string(0x0f, version, 0x00, 0, 1, 6);
-     const char test[4] = {'T', 'e', 's', 't'};   
-    
+    const char error[5] = {'E', 'R', 'R', 'O', 'R'};  
+    const char cubix[5] = {'C', 'u', 'b', 'i', 'x'};
+    write_string(0x0f, cubix, 0x00, 0, 0, 5);
+    const char version[6] = {'V', '0', '0', '1', 'A', '5'};
+    write_string(0x0f, version, 0x00, 0, 1, 6);
+    const char test[4] = {'T', 'e', 's', 't'}; 
 }
