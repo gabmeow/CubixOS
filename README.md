@@ -8,9 +8,9 @@ Cubix is being developed by 1 guy, appreciate all his hard work by downloading t
 
 # CHANGELOG
 - Previous:
-  - Added new-line text
-- Changes:
   - Added keyboard driver
+- Changes:
+  - Modified keyboard driver
 - Coming in the future:
   - Full kernel input
 - [-- Last version: 001A5 --]
