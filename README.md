@@ -19,7 +19,7 @@ This is a temporary version.
 - [-- Last version: 001A5 --]
 - [x] Tested
 - [x] Stable
-- [x] Unstable
+- [ ] Unstable
 
 ## ROADMAP
 - [x] Easy to use
