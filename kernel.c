@@ -36,3 +36,4 @@ _main()
     write_string(0x0f, version, 0x00, 0, 1, 6);
     const char test[4] = {'T', 'e', 's', 't'}; 
 }
+// TEMPORARY VERSION
