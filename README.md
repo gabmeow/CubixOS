@@ -6,6 +6,9 @@ Cubix is an open source operating system created the first of July 2022, I'm sti
 When I was a kid i always dreamed to create an operating system, finally, this dream became true, it's not easy to create this type of thing but I did it! If you want to support my work download it and give it a try! I'm sure that it's not like Windows or Linux but remember that this is 1 month of work!
 - [x] Easy to use
 
+# TEMPORARY VERSION
+This is a temporary version.
+
 # CHANGELOG
 - Previous:
   - Added keyboard driver
@@ -15,6 +18,8 @@ When I was a kid i always dreamed to create an operating system, finally, this d
   - Full kernel input
 - [-- Last version: 001A5 --]
 - [x] Tested
+- [x] Stable
+- [x] Unstable
 
 ## ROADMAP
 - [x] Easy to use
