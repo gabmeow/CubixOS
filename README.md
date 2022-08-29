@@ -44,5 +44,7 @@ LINUX BOOT WITH QEMU:
 - 2nd command: gcc -ffreestanding -m32 -g -c kernel.c -o  kernel.o
 - 3rd command: ld -T NUL -o kernel.tmp -Ttext 0x1000 kernel_entry.o kernel.o
 - 4th command: objcopy -O binary -j .text  kernel.tmp kernel.bin
-- 5th command: cat boot.bin kernel.bin > os.bin
-- 6th command: qemu-system-x86_64 -drive format=raw,file=os.bin,index=0,if=floppy, -m 128M
+- 5th command: nasm zero.asm -f bin -o zero.bin
+- 6th command: cat boot.bin kernel.bin > os.bin
+- 7th command: cat os.bin zero.bin > everything.bin
+- 8th command: qemu-system-x86_64 -drive format=raw,file=everything.bin,index=0,if=floppy, -m 128M
