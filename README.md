@@ -51,5 +51,5 @@ LINUX BOOT WITH QEMU:
 
 # OTHER
 ## Links
--Here's my discord server: https://discord.gg/92RFjFyFHH
--Join in to be updated on what im doing on the os
+- Here's my discord server: https://discord.gg/92RFjFyFHH
+- Join in to be updated on what im doing on the os
