@@ -48,6 +48,8 @@ LINUX BOOT WITH QEMU:
 - 6th command: cat boot.bin kernel.bin > os.bin
 - 7th command: cat os.bin zero.bin > everything.bin
 - 8th command: qemu-system-x86_64 -drive format=raw,file=everything.bin,index=0,if=floppy, -m 128M
+- IF THERE'S AN ISSUE WITH COMMAND 8:
+ - 8th command: qemu-system-x86_64 -drive format=raw,file=everything.bin,index=0,if=floppy
 
 # OTHER
 ## Links
