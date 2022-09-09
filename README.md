@@ -1,6 +1,6 @@
 # Cubix
 
-[![Discord](https://img.shields.io/discord/830522505605283862.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Discord&color=17cf48)](https://discord.gg/92RFjFyFHH)
+[![Discord](https://img.shields.io/discord/991335868377878599.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Discord&color=17cf48)](https://discord.gg/92RFjFyFHH)
 
 ## What is Cubix?
 Cubix is an open source operating system created the first of July 2022, I'm still building it and I hope you'll like it
