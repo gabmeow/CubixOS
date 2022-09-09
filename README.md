@@ -1,9 +1,9 @@
 # Cubix
 
-[![Discord](https://img.shields.io/discord/991335868377878599.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Discord&color=17cf48)](https://discord.gg/92RFjFyFHH)
+[Plasma Discord Server](https://discord.gg/92RFjFyFHH)
 
 ## What is Cubix?
-Cubix is an open source operating system created the first of July 2022, I'm still building it and I hope you'll like it
+Cubix is an open source operating system created the first of July 2022, We're still building it and we hope you'll like it
 
 ## Why Cubix?
 When I was a kid i always dreamed to create an operating system, finally, this dream became true, it's not easy to create this type of thing but I did it! If you want to support my work download it and give it a try! I'm sure that it's not like Windows or Linux but remember that this is 1 month of work!
