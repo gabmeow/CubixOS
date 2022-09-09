@@ -28,7 +28,6 @@ void write_string(int colour, const char *string, unsigned char backcolour, int 
 // kernel
 _main()
 {
-    keyboard_handler();
     const char error[5] = {'E', 'R', 'R', 'O', 'R'};  
     const char cubix[5] = {'C', 'u', 'b', 'i', 'x'};
     write_string(0x0f, cubix, 0x00, 0, 0, 5);
