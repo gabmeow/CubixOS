@@ -28,11 +28,7 @@ void write_string(int colour, const char *string, unsigned char backcolour, int 
 // kernel
 _main()
 {
-    const char error[5] = {'E', 'R', 'R', 'O', 'R'};  
     const char cubix[5] = {'C', 'u', 'b', 'i', 'x'};
     write_string(0x0f, cubix, 0x00, 0, 0, 5);
-    const char version[6] = {'V', '0', '0', '1', 'A', '5'};
-    write_string(0x0f, version, 0x00, 0, 1, 6);
-    const char test[4] = {'T', 'e', 's', 't'}; 
 }
 // TEMPORARY VERSION
