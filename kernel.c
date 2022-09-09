@@ -30,5 +30,7 @@ _main()
 {
     const char cubix[5] = {'C', 'u', 'b', 'i', 'x'};
     write_string(0x0f, cubix, 0x00, 0, 0, 5);
+    const char txt[15] = {'R', 'e', 'm', 'o', 'v', 'e', 'd', ' ', 'v', 'e', 'r', 's', 'i', 'o', 'n'};
+    write_string(0x0f, txt, 0x00, 0, 1, 15);
 }
 // TEMPORARY VERSION
