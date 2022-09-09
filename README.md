@@ -11,9 +11,9 @@ This is a temporary version.
 
 # CHANGELOG
 - Previous:
-  - Added keyboard driver
-- Changes:
   - Modified keyboard driver
+- Changes:
+  - Removed out of memory error
 - Coming in the future:
   - Full kernel input
 - [-- Last version: 001A5 --]
@@ -48,8 +48,3 @@ LINUX BOOT WITH QEMU:
 - 6th command: cat boot.bin kernel.bin > os.bin
 - 7th command: cat os.bin zero.bin > everything.bin
 - 8th command: qemu-system-x86_64 -drive format=raw,file=everything.bin,index=0,if=floppy -m 128M
-
-# OTHER
-## Links
-- Here's my discord server: https://discord.gg/92RFjFyFHH
-- Join in to be updated on what im doing on the os
